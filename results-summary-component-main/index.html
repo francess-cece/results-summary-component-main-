@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <div class="first-item">
+          <p class="overall-grade result">Your Result</p>
+          <div class="summary-grade">
+            <h1>76</h1>
+            <p class="overall-grade">of 100</p>
+          </div>
+          <h2 class="great">Great</h2>
+          <p class="overall-grade">You scored higher than 65% of the</p>
+          <p class="overall-grade">people who have taken these tests.</p>
+        </div>
+      </div>
+      <div class="second-segment">
+        <h2 class="summary">Summary</h2>
+        <div class="react">
+          <!-- <div> -->
+          <div>
+            <span class="svg-logo"
+              ><img src="./assets/images/icon-reaction.svg " />
+            </span>
+            <span class="logo">Reaction</span>
+          </div>
+          <div>
+            <span class="bold"> 80</span>
+            <span class="grey">/100</span>
+          </div>
+          <!-- </div> -->
+        </div>
+        <div class="react memory">
+          <div>
+            <span class="svg-logo"
+              ><img src="./assets/images/icon-memory.svg"
+            /></span>
+            <span class="logo memory-span">Memory </span>
+          </div>
+          <div><span class="bold">92</span><span class="grey">/100 </span></div>
+        </div>
+
+        <div class="react verbal">
+          <div>
+            <span><img src="./assets/images/icon-verbal.svg" /></span
+            ><span class="logo verbal-span">Verbal</span>
+          </div>
+          <div><span class="bold">61 </span><span class="grey">/100</span></div>
+        </div>
+        <div class="react visual">
+          <div>
+            <span><img src="./assets/images/icon-visual.svg" /></span
+            ><span class="logo visual-span">Visual</span>
+          </div>
+
+          <span class="bold">72</span><span class="grey">/100</span>
+        </div>
+
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
